@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+function _redis_profile {
+  local shome="${_redis_home:-"$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"}"
+}
+
+_redis_profile
